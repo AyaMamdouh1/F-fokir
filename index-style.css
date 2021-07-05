@@ -1,0 +1,379 @@
+*
+{margin: 0%;
+padding: 0px;
+box-sizing: border-box;}
+nav
+{background-color: black;
+  display: flex;
+}
+
+nav h1
+{
+color:rgb(255, 48, 91);
+font-size:24px;
+font-weight: 800;
+width: 50%;
+padding: 10px 30px;
+
+}
+nav .links
+{ background-color:black;
+
+justify-content:flex-end;
+padding-top: 10px;
+width: 50%;
+}
+nav a
+{ 
+    color:white;
+font-size:16px;
+font-weight: 300;
+padding: 15px;
+}
+nav a:hover
+{color:rgb(255, 48, 91);}
+.background
+{display:flex;
+      justify-content: center;
+      align-items: center;
+    height: 700px;
+    background-image:url(images/slider-01.jpg);
+    background-size: 100% 100%;
+   
+}
+
+.background .descreption
+{
+    background-color:rgba(0,0,0,0);}
+
+.background h1
+{color: white;
+font-size: 24px;
+font-weight: 600;
+padding-left: 150px;
+padding-bottom: 5px;}
+
+.background h2
+{color:rgb(255,48,91);
+    font-size: 70px;
+    font-weight: 700;
+
+    }
+    .background h3
+    {color: white;
+    font-size:26px;
+font-weight:300;
+padding-left: 120px;
+padding-top: 5px;} 
+  #About
+  { 
+justify-content: center;}
+#About
+{background-color: white;
+    overflow: auto;
+}
+#About .pic
+{width: 40%;
+padding: 40px;
+float: left;
+}
+#About .bordr
+{width: 90%;
+  border:7px solid rgb(48,48,48);
+  
+}
+#About .bordr .img
+{position: relative;
+top:25px;
+left:25px;
+overflow: hidden;}
+#About .bordr img 
+{width: 100%;
+height: 100%;}
+
+#About .layer
+{  background-color:rgba(0, 0, 0, 0.57);
+
+height: 100%;
+width: 100%;
+position: absolute;
+top: 100%;
+left: 0;
+
+transition: all 2s;
+
+} 
+#About .bordr .img:hover .layer
+{top: 0%;}
+ #About .hello
+ {width: 60%;
+float: left;
+padding: 40px;
+height: 100%;}
+#About .hello span
+{color:rgb(255, 48, 91);
+    font-size: 34px;
+}
+#About .hello h1
+{color:rgb(51, 51, 51);
+font-size: 34px;
+padding-bottom: 30px;}
+#About .hello p
+{color:rgb(85, 85, 85);
+    text-align: center;
+
+}
+#About .hello .line
+{padding-top: 50px;
+display: flex;
+justify-content: space-around;
+}
+#About .hello .buttons
+{padding-top: 20px;
+width: 70%;
+display: flex;
+justify-content: space-around;}
+#About .hello .buttons button
+{color: white;
+background-color: rgb(255, 48, 91);
+padding:  10px;}
+#About .hello .buttons button:hover
+{background-color:rgb(255,10,0);}
+
+#services .profile
+{ background-color: rgb(241,241,241);
+    text-align: center;
+padding:30px 0px;
+width: 100%;
+}
+#services .profile h1
+{color:rgb(51,51,51);
+font-size: 40px;
+font-weight: 800;}
+
+.servicesimg
+{background-color:rgb(241,241,241);
+display: flex;
+width: 100%;
+margin: auto;
+justify-content: space-around;
+padding-bottom: 20px;}
+.servicesimg img
+{width: 5%;}
+
+.descreptions
+{background-color:rgb(241,241,241);
+display: flex;
+width: 100%;
+margin: auto;
+justify-content: space-between;}
+
+.descreptions  .layer
+{padding: 30px;
+background-color:rgba(0,0,0,0,0);
+width: 25%;
+
+
+}
+
+
+.descreptions  .descreption
+{width: 100%;
+
+
+
+}
+
+
+.descreptions .descreption h1 
+{color:rgb(51,51,51);
+font-size: 24px;
+font-weight: 600;
+}
+.descreptions .descreption p
+{color:rgb(85,85,85);
+font-size: 16px;
+font-weight: 400;
+padding-top:15px}
+
+#Portfolio .ourPortfolio
+{color:rgb(51,51,51);
+    background-color: white;
+font-size: 40px;
+font-weight: 800;
+margin: 40px;
+text-align: center;}
+
+#Portfolio .links
+{text-align: center;    
+}
+#Portfolio .links a
+{padding-right: 30px;}
+#Portfolio .images
+{background-color: rgb(241,241,241);
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+#Portfolio .images img
+{width: 33.3%;
+padding-right: 30px;
+padding-bottom: 30px;}
+.numbers
+{padding: 50px 0px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+width: 95%;
+margin: auto;
+}
+.numbers .layer2{padding:10px;
+background-color: white;
+width: 25%;}
+ .numbers .details
+ {width: 100%;
+background-color: white;}
+.numbers .details img 
+{padding-left: 50px;
+padding-bottom: 10px;}
+.numbers .details p
+{padding-left: 42px;
+    padding-bottom: 10px;
+color:rgb(51,51,51);
+font-size: 26px;
+font-weight: 800;}
+.numbers .details h1
+{color:rgb(85,85,85);
+font-size: 16px;
+font-weight: 600;
+padding-left: 20px;}
+
+#Testimonial
+{background-color: rgb(241,241,241);
+padding:50px 0px;}
+ #Testimonial .clientfeedback
+ { background-color: rgb(241,241,241);
+text-align: center;}
+#Testimonial .clientfeedback h1
+{color:rgb(51,51,51);
+font-size: 40px;
+font-weight: 800;}
+
+#Testimonial  .container
+{
+background-color:rgb(241,241,241);
+height: 400px;
+width: 70%;
+
+margin:auto;
+display: flex;}
+
+#Testimonial  .container .layers
+{width: 25.5%;
+background-color: rgb(241,241,241);
+}
+#Testimonial  .container  .layer1
+{ display: block;
+    height: 0;
+    width: 0;
+    border-top: 15em solid rgb(255,48,91);
+    border-right: 15em solid transparent;
+    position: relative;
+}
+#Testimonial  .layer1   .layer2
+{ background-image: url(images/feedback.1.jpg);
+width: 150px;
+height: 150px;
+border-radius: 50%;
+position: absolute;
+bottom:30px;
+left:40px;}
+#Testimonial .informations
+{
+    width: 74.5%;
+background-color: rgb(241,241,241);
+
+}
+#Testimonial .informations h1
+{color:rgb(51,51,51);
+font-size:26px;
+font-weight: 600;
+padding-top: 20px;
+padding-bottom: 10px;}
+#Testimonial .informations h2
+{color:rgb(85,85,85);
+font-size:18px;
+font-weight: 600;
+padding-bottom: 10px;}
+#Testimonial .informations p
+{color:rgb(85,85,85);
+font-size:18px;
+font-weight: 600;
+padding-bottom: 10px;}
+#blog
+{overflow: auto;
+    background-color: rgb(241,241,241);
+
+}
+ #blog .container
+ {width: 90%;
+margin: auto;}
+#blog .ourblog h1
+{color: rgb(51,51,51);
+font-size: 40px;
+font-weight: 800;
+padding: 50px 0px;
+text-align: center;
+background-color: rgb(241,241,241);
+}
+#blog .img
+{
+width: 33.3%;
+padding: 10px;
+float: left;}
+#blog .img .layer
+{background-color: white;}
+#blog .img img
+{width: 100%;}
+#blog .img .layer .time
+{padding-top:20px ;
+    padding-left: 15px;
+text-align: left
+;
+color:rgb(85,85,85);}
+#blog .img .layer h1
+{
+    padding-left: 15px;
+}
+#blog .img .layer p
+{padding: 10px 0px 15px;
+}
+
+#contactus .container
+{    width: 80%;
+margin: auto;
+padding: 40px 0px;
+padding-bottom: 0px;
+text-align: center;}
+#contactus input
+{width: 400px;
+height: 40px;
+margin: 10px;
+margin-right: 20px;
+padding: 20px;
+}#contactus .inputs input
+{width: 825px;
+    padding: 20px;
+}
+#contactus button
+{width: 150px;
+    height: 40px;
+    text-align: left;
+    text-align: center;
+    background-color: rgb(255,48,91);
+}
+#contactus .inputs .n
+{height: 80px;
+}
